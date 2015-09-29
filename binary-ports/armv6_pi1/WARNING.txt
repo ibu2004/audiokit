@@ -1,0 +1,5 @@
+# FOR USERS OF THIS BINARY
+These binaries are unofficial ports and are not guaranteed to work with the system it is designed for as well as to have similar functionality as mentioned in the wiki. Any loss or problems caused by the use of this binary is not the responsibility of the Raspbian Music project.
+
+# FOR PEOPLE BUILDING THE BINARY
+If you are building an unofficial port of this binary to another architecture, this warning text should be included with the binary. It is also crucial to attempt to deploy this binary with as minimal modifications as possible. For the compilation process, refer to the wiki for more information.
