@@ -1,0 +1,14 @@
+Source: raspbian-music
+Section: python
+Priority: optional
+Maintainer: Ibrahim Ansari, <ansari.ibrahim1@gmail.com>
+Build-Depends: debhelper (>= 7), python3 (>= 3.0)
+Standards-Version: 3.9.2
+X-Python-Version: >= 3.0
+
+
+Package: raspbian-music
+Architecture: all
+Section: python
+Depends: ${misc:Depends}, ${python:Depends}
+Description: A cross-platform music player, initially for the Raspberry Pi

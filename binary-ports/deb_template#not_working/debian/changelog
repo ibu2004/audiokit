@@ -1,0 +1,6 @@
+raspbian-music (0-0) trusty; urgency=urgency
+
+  * Initial release. (Closes: #XXXXXX)
+   - Built first deb
+
+ -- Ibrahim Ansari <ansari.ibrahim1@gmail.com>  Tue, 29 Sep 2015 19:19:16 +0530
