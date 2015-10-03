@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # Gets root privileges
 echo Requires your password to install dependencies.
 sudo su

@@ -16,8 +16,34 @@
 
 # Importing modules
 import pyglet
+from tkinter import *
 
 # Initialize player
 player = pyglet.media.Player()
 
-## GUI coming soon.
+# Tkinter GUI
+class Player():
+    def __init__(self):
+        global player
+        player = pyglet.media.Player()
+
+    def queue_player(self, file):
+        player.queue(file)
+
+    def player_play(self):
+        player.play()
+
+    def player_pause(self):
+        player.pause()
+
+    def skip(self):
+        player.next_source()
+
+    def seek(self, time):
+        player.seek(time)
+
+#    def set_volume(self, volume=False):
+#        if volume != False:
+#            volume = float(volume)
+#            player.volume(volume)
+#        player.volume
